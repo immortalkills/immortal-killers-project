@@ -257,7 +257,6 @@ footer {
         border-radius: 15px;
     }
 
-    /* Footer */
     footer {
         padding: 30px 20px;
     }
@@ -318,4 +317,33 @@ footer {
     color: #ff0000;
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
+}
+@media (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        padding: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+ 
+    h1 {
+        font-size: 28px !important;
+    }
+
+ 
+    .playlist-embed iframe {
+        height: 450px;
+    }
+
+  
+    section {
+        padding: 20px 10px !important;
+    }
 }
