@@ -161,4 +161,161 @@ footer {
     text-align: center;
     border-top: 1px solid #333;
     color: #666;
+    } 
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    header {
+        padding: 15px;
+        flex-direction: column; 
+        text-align: center;
+        position: static; 
+        background: rgba(0, 0, 0, 0.9); 
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    .hero {
+        padding: 80px 20px 40px; 
+        background-size: cover;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem; 
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .scroll-indicator {
+        display: none; 
+    }
+
+    /* Обычные секции */
+    section {
+        padding: 60px 20px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .cta-section {
+        padding: 60px 20px;
+    }
+
+    .cta-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .cta-container p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+
+    .playlist-embed {
+        width: 100%; 
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 20px;
+    }
+
+    .footer-logo {
+        font-size: 1.5rem;
+    }
+
+    .social-links {
+        gap: 15px;
+    }
+}
+@media (max-width: 480px) {
+    nav a {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
+
+    .card-icon {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+#prehistory {
+    background: linear-gradient(180deg, #050505 0%, #0a0a0a 100%);
+    padding: 60px 10%; 
+}
+
+.prehistory-container {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.prehistory-box {
+    border-left: 3px solid #ff0000;
+    padding-left: 30px;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 40px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: -10px 0 20px rgba(255, 0, 0, 0.05);
+}
+
+.prehistory-box p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.prehistory-box span {
+    color: #ff0000;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
 }
