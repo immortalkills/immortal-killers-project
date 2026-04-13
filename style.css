@@ -313,6 +313,8 @@ footer {
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
 }
+.btn {
+    margin-left: 50px;
 @media (max-width: 768px) {
     .grid-container {
         display: grid;
@@ -337,8 +339,6 @@ footer {
         height: 450px;
     }
 
-  
     section {
-        padding: 20px 10px !important;
-    }
+    padding: 20px 10px !important;
 }
