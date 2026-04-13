@@ -215,7 +215,6 @@ footer {
         display: none; 
     }
 
-    /* Обычные секции */
     section {
         padding: 60px 20px;
     }
@@ -296,14 +295,10 @@ footer {
     margin: 0 auto;
     position: relative;
 }
-
-.prehistory-box {
-    border-left: 3px solid #ff0000;
-    padding-left: 30px;
-    background: rgba(255, 255, 255, 0.02);
-    padding: 40px;
-    border-radius: 0 20px 20px 0;
-    box-shadow: -10px 0 20px rgba(255, 0, 0, 0.05);
+.prehistory-box span {
+    color: #ff0000;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif; 
 }
 
 .prehistory-box p {
