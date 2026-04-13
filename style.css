@@ -314,7 +314,11 @@ footer {
     font-family: 'Orbitron', sans-serif;
 }
 .btn {
+    display: inline-block;
     margin-left: 50px;
+    width: fit-content; 
+    padding: 15px 30px; 
+}
 @media (max-width: 768px) {
     .grid-container {
         display: grid;
