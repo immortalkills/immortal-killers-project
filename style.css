@@ -438,4 +438,16 @@ footer {
     border: 2px solid #ff0000;
     color: #ff0000;
     box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); 
+
+.card-link {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    transition: transform 0.3s ease;
+}
+
+.card-link:hover .card {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.2);
+    cursor: pointer;
 }
